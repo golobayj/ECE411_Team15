@@ -1,5 +1,7 @@
 # ECE411 Team 15 Practicum Project
 
+## Our team has decided to pursue **Idea 1** below for our practicum project.
+
 ### Idea 1: 3D "Simon" Says Game
 
 This project is a game that is similar to "Simon Says".  The game works by displaying a seqeunce of 
