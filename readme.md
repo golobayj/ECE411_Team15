@@ -11,13 +11,26 @@ concept by changing the typical plane of 4 buttons and expand it to a 3D shape s
 buttons or a octahedron with 8 sides.  The device will use tactile buttons as sensors. The device will 
 actuate a speaker and LEDs.  This project can be implemented using an ATMega328P microcontroller.
 
-Sensor: Onen button for every side of the object
+Sensor: One button for every side of the object
 
 Actuator: One LED for every button and a speaker for audible tones
 
 Controller: ATMega328P
 
-### Idea 2: Sprinkler Controller
+### Idea 2: Cup With a Temperature Indicator
+
+This project's main purpose is to display the temperature of a cup and/or the liquid its holding so
+that the user can drink the liquid at its optimal/preferred temperature. The basic design of the 
+project consists of a cup with a temperature sensor inside. The lower part of the cup would be where
+the microcontroller is stored. When the temperature of the inside of up shifts by a significant amount,
+the microcontroller would then save the temperature, and display it on a flexible LCD display on the outside
+of the cup for the user to read.
+
+Sensor: Temperature Sensors 
+
+Controller: ATMega328P
+
+Actuator: LCD (16x2)
 
 ### Idea 3: Digital Clock
 Sensor: DS1307/1038 serial real-time clock (RTC), LM335 Precision Temperature Sensors 
