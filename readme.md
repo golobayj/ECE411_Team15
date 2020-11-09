@@ -13,6 +13,9 @@
 ### Schematic
 ![preliminarySchematic](images/preliminarySchematic.png)
 
+### Preliminary PCB Layout
+![preliminaryPCB](images/prelimPCB.png)
+
 ### Breadboard
 ![preliminaryBreadboard](images/preliminaryBreadboard.jpeg)
 
