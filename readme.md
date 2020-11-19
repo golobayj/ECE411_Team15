@@ -10,11 +10,11 @@
 
 ## Preliminary Designs:
 
-### Schematic
-![preliminarySchematic](images/preliminarySchematic.png)
+### Schematic rev 1.0
+![SchematicRev1-0](images/sequenceGameRev1-0-Schematic.png)
 
-### Preliminary PCB Layout
-![preliminaryPCB](images/prelimPCB.png)
+### PCB Layout rev 1.0
+![BoardRev1-0](images/sequenceGameRev1-0-Board.png)
 
 ### Breadboard
 ![preliminaryBreadboard](images/preliminaryBreadboard.jpeg)
