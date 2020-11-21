@@ -6,6 +6,7 @@
 
 ### [Practicum_Project_Ideas.pdf](docs/Practicum_Project_Ideas.pdf)
 
+### [Functional_Decomposition.pdf](docs/Functional_Decomposition.pdf)
 
 
 ## Preliminary Designs:
