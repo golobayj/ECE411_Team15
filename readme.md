@@ -11,8 +11,8 @@
 
 ## Preliminary Designs:
 
-### Schematic rev 1.0
-![SchematicRev1-0](images/sequenceGameRev1-0-Schematic.png)
+### Schematic rev 1.1
+![SchematicRev1-0](images/sequenceGameRev1-1-Schematic.png)
 
 ### PCB Layout rev 1.0
 ![BoardRev1-0](images/sequenceGameRev1-0-Board.png)
