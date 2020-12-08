@@ -23,6 +23,6 @@ typedef struct sSeg {
 
 void displayDigits(sSegPtr_t disp);
 void countValueUp(sSegPtr_t disp);
-void setValue(int setValue1, int setValue0, sSegPtr_t disp);
+void setDisplayValue(uint8_t value, sSegPtr_t disp);
 
 #endif /* SEVENSEGMENT_H_ */

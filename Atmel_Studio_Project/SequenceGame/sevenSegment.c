@@ -18,14 +18,14 @@ void displayDigits(sSegPtr_t disp) {
 	int value;
 	//ACTIVE LOW PNP
 	if(disp->lastDisplayed == disp->digit0) {
-		PORTD |= (1 << disp->digit1);
-		PORTD &= ~(1 << disp->digit0);
+		PORTC |= (1 << disp->digit1);
+		PORTC &= ~(1 << disp->digit0);
 		value = disp->digitValue0;
 		disp->lastDisplayed = disp->digit1;
 	}
 	else  {
-		PORTD |= (1 << disp->digit0);
-		PORTD &= ~(1 << disp->digit1);
+		PORTC |= (1 << disp->digit0);
+		PORTC &= ~(1 << disp->digit1);
 		value = disp->digitValue1;
 		disp->lastDisplayed = disp->digit0;
 	}
@@ -88,8 +88,8 @@ void countValueUp(sSegPtr_t disp){
 	else disp->digitValue0++;
 }
 
-void setValue(int setValue1, int setValue0, sSegPtr_t disp) {
-	disp->digitValue1 = setValue1;
-	disp->digitValue0 = setValue0;
+void setDisplayValue(uint8_t value, sSegPtr_t disp) {
+		disp -> digitValue0 = value % 10;
+		disp -> digitValue1 = (value / 10);
 }
 
