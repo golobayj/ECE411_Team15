@@ -15,7 +15,7 @@
 ## Final Designs:
 
 ### Demo
-![sequence_game_demo](https://drive.google.com/file/d/1zAOsdVPUFq6oVJJ1poNx3nirWUGRS5xu/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1zAOsdVPUFq6oVJJ1poNx3nirWUGRS5xu/view?usp=sharing)
 
 ### Schematic rev 1.1
 ![SchematicRev1-0](images/sequenceGameRev1-1-Schematic.png)
